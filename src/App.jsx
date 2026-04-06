@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <nav>
+    <nav className='w-10/12 mx-auto p-4'>
       <Navbar></Navbar>
     </nav>
     </>
