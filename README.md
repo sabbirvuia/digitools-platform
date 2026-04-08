@@ -1,16 +1,64 @@
-# React + Vite
+# 🚀 Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+Digital Tools Buying Website is a modern e-commerce platform where users can explore and purchase useful digital products like resume builders, AI tools, design assets, and more. The project focuses on a clean UI, smooth user experience, and interactive cart functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
+- React.js
+- Tailwind CSS
+- DaisyUI
+- JavaScript (ES6+)
+- React-Toastify
+- JSON
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+1. 🛒 **Dynamic Cart System**
+   - Add and remove products easily
+   - Real-time cart count update in navbar
+   - Total price calculation
 
-## Expanding the ESLint configuration
+2. 🔄 **Toggle Between Products & Cart**
+   - Switch between product list and cart view seamlessly
+   - Default view shows products
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. 🔔 **Interactive Notifications**
+   - Toast messages for add to cart, remove, and checkout actions using React-Toastify
+
+---
+
+## 📱 Responsive Design
+- Fully responsive for mobile, tablet, and desktop
+- Clean and user-friendly interface
+
+---
+
+## 📦 Product Features
+- Product cards with:
+  - Name
+  - Description
+  - Price & billing period
+  - Features list
+  - Tag (Popular, New, Best Seller)
+- "Buy Now" button with instant feedback
+
+---
+
+## 🧹 Cart Functionalities
+- Add products to cart
+- Remove individual items
+- View total selected products
+- "Proceed to Checkout" clears the cart
+
+---
+
+## 🔧 Installation & Setup
+
+```bash
+git clone https://github.com/sabbirvuia/digitools-platform.git
+cd your-repo-name
+npm install
+npm run dev
