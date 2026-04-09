@@ -1,10 +1,12 @@
 # 🚀 Digital Tools Buying Website
 
 ## 📌 Project Overview
+
+🔗 **Live Demo (Netlify):** [Digitools-Platform-devSabbir](https://digitools-platform-devsabbir.netlify.app/)<br>
+🔗 **GitHub Repository:** [DigitalToolsPlatform](https://github.com/sabbirvuia/digitools-platform)
+
 Digital Tools Buying Website is a modern e-commerce platform where users can explore and purchase useful digital products like resume builders, AI tools, design assets, and more. The project focuses on a clean UI, smooth user experience, and interactive cart functionality.
-
 ---
-
 ## 🛠️ Technologies Used
 - React.js
 - Tailwind CSS
