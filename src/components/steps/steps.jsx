@@ -5,7 +5,7 @@ import rocketPng from  '../../assets/rocket.png';
 
 const Steps = () => {
   return (
-    <div className="px-6 md:px-16 py-16 bg-base-100">
+    <div className="px-6 md:px-16 py-16 bg-base-100 mt-44">
       
       {/* Section Title */}
       <div className="text-center mb-12">

@@ -1,7 +1,7 @@
 import React from "react";
 import { LuShoppingCart } from "react-icons/lu";
 
-const Navbar = ({ c }) => {
+const Navbar = ({ carts }) => {
     return (
 
       <div className="navbar   w-10/12 mx-auto p-4 flex-col lg:flex-row gap-4">
@@ -73,7 +73,7 @@ const Navbar = ({ c }) => {
             <h2 className="text-xl relative">
               <LuShoppingCart />
               <span className="absolute -top-3 -right-3 bg-red-500 text-xs rounded-full py-0.5 px-2 text-white font-semibold">
-                {c}
+                {carts.length}
               </span>
             </h2>
             <a className="text-[16px] font-medium text-[#101727] hover:text-[#4F39F6] cursor-pointer">

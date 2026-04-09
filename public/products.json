@@ -1,112 +1,163 @@
+
 [
   {
     "id": 1,
     "name": "AI Writing Pro",
     "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
     "price": 29,
-    "period": "Mo",
+    "period": "monthly",
     "tag": "Best Seller",
-    "tagType": "best",
-    "features": ["Unlimited AI generations", "50+ writing templates", "Grammar checker"],
-    "icon": "📝"
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited AI generation",
+      "50+ content templates",
+      "Plagiarism checker",
+      "SEO optimization tools"
+    ],
+    "icon": "https://i.ibb.co.com/27HjrcnR/ai-pro.png"
   },
   {
     "id": 2,
     "name": "Design Templates Pack",
     "description": "2000+ premium templates for social media, presentations, and marketing materials.",
     "price": 49,
-    "period": "One-Time",
+    "period": "one-time",
     "tag": "Popular",
     "tagType": "popular",
-    "features": ["2000+ templates", "Monthly updates", "Commercial license"],
-    "icon": "🎨"
+    "features": [
+      "Drag-and-drop editor",
+      "Commercial license",
+      "Weekly new additions",
+      "High-resolution exports"
+    ],
+    "icon": "https://i.ibb.co.com/pjv93H5N/pencil.png"
   },
   {
     "id": 3,
     "name": "Premium Stock Assets",
-    "description": "Access millions of royalty-free photos, videos, and graphics.",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
     "price": 19,
-    "period": "Mo",
+    "period": "monthly",
     "tag": "New",
     "tagType": "new",
-    "features": ["10M+ assets", "Commercial use", "No attribution"],
-    "icon": "📷"
+    "features": [
+      "4K video footage",
+      "No attribution required",
+      "Unlimited downloads",
+      "Adobe integration"
+    ],
+    "icon": "https://i.ibb.co.com/BVQsBJvx/camera-emoji.webp"
   },
   {
     "id": 4,
-    "name": "SEO Booster Tool",
-    "description": "Improve your website ranking with smart SEO analytics.",
-    "price": 15,
-    "period": "Mo",
-    "tag": "Popular",
-    "tagType": "popular",
-    "features": ["Keyword research", "Site audit", "Backlink tracker"],
-    "icon": "📈"
+    "name": "SEO Master Tool",
+    "description": "Boost your website ranking with real-time analytics and keyword research.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Backlink analysis",
+      "Competitor tracking",
+      "Site audit reports",
+      "Keyword difficulty score"
+    ],
+    "icon": "https://i.ibb.co.com/XksHhkXH/seo-image.png"
   },
   {
     "id": 5,
-    "name": "Video Editor Pro",
-    "description": "Create stunning videos with professional editing tools.",
-    "price": 35,
-    "period": "Mo",
-    "tag": "Best Seller",
-    "tagType": "best",
-    "features": ["4K editing", "Transitions", "Audio sync"],
-    "icon": "🎬"
+    "name": "Social Media Scheduler",
+    "description": "Plan, track, and publish your social media posts across all platforms from one dashboard.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Auto-post to 5 platforms",
+      "Advanced analytics",
+      "Hashtag generator",
+      "Bulk image uploader"
+    ],
+    "icon": "https://i.ibb.co.com/N6dyq0Gs/social.png"
   },
   {
     "id": 6,
-    "name": "UI Kit Bundle",
-    "description": "Modern UI kits for web and mobile app design.",
-    "price": 25,
-    "period": "One-Time",
+    "name": "UI/UX Component Library",
+    "description": "A massive collection of React and Tailwind CSS components to speed up your development.",
+    "price": 79,
+    "period": "one-time",
     "tag": "New",
     "tagType": "new",
-    "features": ["Figma files", "Components", "Icons included"],
-    "icon": "📱"
+    "features": [
+      "500+ UI components",
+      "Figma source files",
+      "Dark mode support",
+      "Lifetime updates"
+    ],
+    "icon": "https://i.ibb.co.com/MzrKKzG/ui-ux.webp"
   },
   {
     "id": 7,
-    "name": "Cloud Storage Pro",
-    "description": "Secure cloud storage with fast access and backups.",
-    "price": 10,
-    "period": "Mo",
-    "tag": "Popular",
-    "tagType": "popular",
-    "features": ["1TB storage", "Auto backup", "Encryption"],
-    "icon": "☁️"
+    "name": "Security Firewall Plus",
+    "description": "Enterprise-grade security for your web applications with real-time threat detection.",
+    "price": 150,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "DDoS protection",
+      "SSL certification",
+      "Daily malware scans",
+      "24/7 expert support"
+    ],
+    "icon": "https://i.ibb.co.com/35r639xd/firewall.png"
   },
   {
     "id": 8,
-    "name": "Code Snippet Library",
-    "description": "Reusable code snippets for developers.",
-    "price": 12,
-    "period": "Mo",
-    "tag": "New",
-    "tagType": "new",
-    "features": ["1000+ snippets", "Multi-language", "Easy search"],
-    "icon": "💻"
+    "name": "E-commerce Starter Kit",
+    "description": "Everything you need to launch your online store including payment gateway integration.",
+    "price": 99,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Inventory management",
+      "Mobile-ready design",
+      "Multi-currency support",
+      "Order tracking system"
+    ],
+    "icon": "https://i.ibb.co.com/Wv35VzHj/e-commerce.png"
   },
   {
     "id": 9,
-    "name": "Email Marketing Tool",
-    "description": "Create and manage email campaigns easily.",
-    "price": 20,
-    "period": "Mo",
-    "tag": "Best Seller",
-    "tagType": "best",
-    "features": ["Automation", "Templates", "Analytics"],
-    "icon": "📧"
+    "name": "AI Logo Maker",
+    "description": "Create professional logos for your brand instantly using our neural network engine.",
+    "price": 10,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "High-res SVG files",
+      "Brand guidelines",
+      "Unlimited revisions",
+      "Social media kit"
+    ],
+    "icon": "https://i.ibb.co.com/rRSw5M8Z/ai-banner-concept.avif"
   },
   {
     "id": 10,
-    "name": "Online Course Platform",
-    "description": "Access premium courses to upgrade your skills.",
-    "price": 18,
-    "period": "Mo",
-    "tag": "Popular",
-    "tagType": "popular",
-    "features": ["1000+ courses", "Certificates", "Offline access"],
-    "icon": "📚"
+    "name": "Project Manager Pro",
+    "description": "Organize tasks, manage teams, and track progress with our intuitive Kanban boards.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited projects",
+      "Time tracking",
+      "Team collaboration",
+      "Gantt charts"
+    ],
+    "icon": "https://i.ibb.co.com/7MhzZX7/p-maneger.png"
   }
 ]
