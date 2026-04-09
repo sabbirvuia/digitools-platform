@@ -18,7 +18,7 @@ import { useState } from 'react';
 const productPromise = fetch('/products.json').then(res => res.json())
 
 function App() {
-     const [isClicked, setIsClicked] = useState(false);
+   
     const [carts, setCarts] = useState([])
   const [active, setActive] = useState("product")
   return (
@@ -34,7 +34,7 @@ function App() {
         <Suspense fallback={<div className='flex justify-center items-center'>
           <span className="loading loading-bars loading-xl"></span>
         </div>}>
-          <ProductSection carts={carts} setCarts={setCarts} productPromise={productPromise} isClicked={isClicked} setIsClicked={setIsClicked}></ProductSection>
+          <ProductSection carts={carts} setCarts={setCarts} productPromise={productPromise}></ProductSection>
         </Suspense>
       }
 
