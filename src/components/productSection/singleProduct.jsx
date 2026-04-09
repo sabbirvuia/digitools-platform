@@ -3,10 +3,10 @@ import { useState } from 'react';
 import { FaCheck } from 'react-icons/fa';
 import { toast } from 'react-toastify';
 
-const SingleProduct = ({ product, carts, setCarts }) => {
+const SingleProduct = ({ product, carts, setCarts, isClicked, setIsClicked }) => {
     const {id, icon, name, description, features, period, price, tag } = product
 
-    const [isClicked, setIsClicked] = useState(false);
+    // const [isClicked, setIsClicked] = useState(false);
     
     const handleBuyBtn =(product)=> {
     const isAlreadyInCart = carts.find(cart => cart.id === product.id);

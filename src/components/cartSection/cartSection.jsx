@@ -1,7 +1,7 @@
 
 import React from 'react';
 import SingleCart from './singleCart';
-import packagePng from '../../assets/package.png';
+import { RiShoppingCartLine } from "react-icons/ri";
 import { toast } from 'react-toastify';
 
 const CartsSection = ({ carts, setCarts }) => {
@@ -11,7 +11,7 @@ const CartsSection = ({ carts, setCarts }) => {
         setCarts([]);
         toast.success("Payment Successful", {
             position: "top-center",
-            autoClose: 5000,
+            autoClose: 2000,
             hideProgressBar: false,
             closeOnClick: false,
             pauseOnHover: true,
@@ -26,14 +26,14 @@ const CartsSection = ({ carts, setCarts }) => {
             <div className='max-w-7xl mx-auto lg:p-10 border border-gray-300 rounded-xl mb-7'>
 
                 {carts.length === 0 && <div className='flex flex-col justify-center space-y-4  bg-base-200 rounded-2xl items-center h-60'>
-                    <div>
-                        <img className='h-20 w-20 ' src={packagePng} alt="" />
+                    <div className='text-4xl'>
+                        <RiShoppingCartLine />
                     </div>
                     <p className='font-semibold'>No Carts Available</p>
                 </div>}
 
                 {carts.length > 0 &&
-                    <h2 className='font-bold text-xl text-[#101727] pb-5'>Your Cart</h2>
+                    <h2 className='font-bold text-xl text-[#101727] pb-5 ml-2'>Your Cart</h2>
                 }
                 <div className='space-y-4'>
                     {

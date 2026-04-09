@@ -8,7 +8,7 @@ const SingleCart = ({ cart, carts, setCarts }) => {
         setCarts(filterItem)
         toast.error(`${cart.name} is deleted`, {
             position: "top-center",
-            autoClose: 5000,
+            autoClose: 1000,
             hideProgressBar: false,
             closeOnClick: false,
             pauseOnHover: true,
@@ -19,9 +19,9 @@ const SingleCart = ({ cart, carts, setCarts }) => {
     }
 
     return (
-        <div className='flex justify-between items-center border hover:shadow-md hover:border-pink-300 border-gray-200 p-5 rounded-2xl bg-base-200'>
+        <div className='flex justify-between items-center  border hover:shadow-md hover:border-violet-300 border-gray-200 p-5 rounded-2xl bg-base-200'>
             <div className='flex gap-4'>
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-center items-center border border-gray-300 rounded-full w-16 h-16 bg-white'>
                     <img className='object-contain h-8 w-8' src={cart.icon} alt="" />
                 </div>
                 <div>
