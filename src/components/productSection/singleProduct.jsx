@@ -59,7 +59,7 @@ const SingleProduct = ({ product, carts, setCarts }) => {
                     }
                 </div>
                 <div className={`text-center absolute top-3 right-3 py-1.5 rounded-full px-4  font-semibold text-sm
-                 ${tag?.toLowerCase() === 'popular' ? 'text-[#9514FA] bg-[#E1E7FF]' : tag?.toLowerCase() === 'best seller' ? 'bg-[#FEF3C6] text-red-500' : 'text-green-500 bg-green-100'}`}>
+                 ${tag?.toLowerCase() === 'popular' ? 'text-[#9514FA] bg-[#E1E7FF] border border-[#e4c2fe]' : tag?.toLowerCase() === 'best seller' ? 'bg-[#FEF3C6] text-red-500 border border-[#fdadb4]' : 'text-green-500 bg-green-100 border border-green-300'}`}>
                     <p>{tag}</p>
                 </div>
             </div>
