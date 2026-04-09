@@ -27,11 +27,11 @@ const Home = () => {
             software—all in one place. Start creating faster today. <br />
             Explore Products
           </p>
-          <div class="flex gap-4">
-            <button class="btn bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full px-6 py-3 font-semibold hover:from-purple-600 hover:to-blue-600 transition-all">
+          <div className="flex gap-4">
+            <button className="btn bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full px-6 py-3 font-semibold hover:from-purple-600 hover:to-blue-600 transition-all">
               Explore Products
             </button>
-            <button class="btn  bg-gradient-to-r from-blue-600 to-purple-600  border-[#4F39F6] text-transparent bg-clip-text  rounded-full px-6 py-3 font-semibold flex items-center gap-2 hover:bg-blue-50 transition-all">
+            <button className="btn  bg-gradient-to-r from-blue-600 to-purple-600  border-[#4F39F6] text-transparent bg-clip-text  rounded-full px-6 py-3 font-semibold flex items-center gap-2 hover:bg-blue-50 transition-all">
               <img src={play} alt="Watch Demo" />
               Watch Demo
             </button>
